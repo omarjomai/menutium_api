@@ -1,0 +1,6 @@
+git init
+heroku create
+ git add .
+ git commit -m 'reinitialized files'
+ git push heroku HEAD:master
+ heroku ps:scale web=1
